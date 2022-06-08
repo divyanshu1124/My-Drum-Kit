@@ -13,7 +13,7 @@ for(i=0 ; i<l ;i++){
 
 document.addEventListener("keypress", handlePress);
 
-function handleClick(this){
+function handleClick(){
     makeSound(this.innerHTML);
 }
 function handlePress(event)
